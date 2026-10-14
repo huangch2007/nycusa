@@ -101,6 +101,6 @@ while [ "$i" -le 5 ]; do
     #guess_list=$(printf '%s\n' "$guess_list)
     i=$((i + 1))
 
-    printf 'Current list:\n%s\n' "$guess_list"
+    printf 'Current list size:\n%s\n' "$guess_list" | wc -l
 done
 
